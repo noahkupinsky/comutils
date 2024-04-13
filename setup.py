@@ -1,4 +1,3 @@
-
 from setuptools import setup, find_packages
 
 setup(
@@ -7,16 +6,17 @@ setup(
     packages=find_packages(),
     install_requires=[
         'appdirs', 
-        'cominfer'
+        'cominfer',
+        'configparser',
     ],
     entry_points={
         'console_scripts': [
             'comutils=comutils.command:main',
         ],
     },
-    author='Your name here',
-    author_email='Your email here',
-    description='Your description here.',
+    author='Noah Kupinsky',
+    author_email='noah@kupinsky.com',
+    description='Utilities for making python packages with CLI',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
 )

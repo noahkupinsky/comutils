@@ -1,3 +1,3 @@
 # comutils
 
-Your Description Here.
+Utilities for making python packages with CLI
